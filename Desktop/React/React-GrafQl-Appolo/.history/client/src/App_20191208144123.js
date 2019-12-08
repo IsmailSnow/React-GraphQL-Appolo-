@@ -8,13 +8,13 @@ import './App.css'
 import Home from './pages/home'
 import Register from './pages/register'
 import Login from './pages/login'
-import MenuBar from './components/menu'
+import Menu from './components/menu'
 
 function App() {
   return (
     <Router>
        <Container>
-       <MenuBar/>
+       <Menu/>
           <Route exact path='/' component={Home}/>
           <Route exact path='/login' component={Login}/>
           <Route exact path='/register' component={Register}/>
